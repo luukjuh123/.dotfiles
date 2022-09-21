@@ -1,0 +1,77 @@
+
+{
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "[terraform]": {
+        "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "pipeline.yaml": "azure-pipelines",
+        "yaml/pipelinevariables.yml": "azure-pipelines",
+    },
+    "[azure-pipelines]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.tabSize": 2,
+    "sync.gist": "2fbd321129b45e4206af7a4fd2799f02",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
+    "notebook.output.textLineLimit": 500,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "rust-analyzer.inlayHints.enable": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": ["-l", "-i"]
+        }
+    },
+    "remote.SSH.remotePlatform": {
+        "10.146.102.79": "linux"
+    },
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "disabled",
+        "vscode-kubernetes.minikube-path.linux": "/home/daan/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "explorer.sortOrder": "type",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "mssql.connections": []
+}
