@@ -18,10 +18,6 @@
     "[terraform]": {
         "editor.formatOnSave": true
     },
-    "files.associations": {
-        "pipeline.yaml": "azure-pipelines",
-        "yaml/pipelinevariables.yml": "azure-pipelines",
-    },
     "[azure-pipelines]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
@@ -38,8 +34,7 @@
         "jupyter-notebook": "left"
     },
     "editor.tabSize": 2,
-    "sync.gist": "2fbd321129b45e4206af7a4fd2799f02",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Default Dark+",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -63,14 +58,7 @@
             "args": ["-l", "-i"]
         }
     },
-    "remote.SSH.remotePlatform": {
-        "10.146.102.79": "linux"
-    },
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
-    "vs-kubernetes": {
-        "vs-kubernetes.crd-code-completion": "disabled",
-        "vscode-kubernetes.minikube-path.linux": "/home/daan/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
-    },
     "explorer.sortOrder": "type",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "mssql.connections": []
