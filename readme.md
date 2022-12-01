@@ -13,3 +13,4 @@ source ~/.zshrc
 Docker
 Kubernetes
 brew
+Azure CLI
