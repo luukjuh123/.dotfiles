@@ -26,8 +26,12 @@ Azure CLI
 - Better Comments
 - ES7 + react/redux/react-native snippets
 - ESLint
+- GitLens
+- Import Cost
 - Live Server
+- Live Share
 - MDX
+- Path Intelligence
 - PostCSS Language Support
 - Prettier
 - Python
