@@ -17,12 +17,20 @@ Azure CLI
 
 
 ### VSCode Settings:
-- JetBrains Mono
+- Font: JetBrains Mono
+- 
 
 
 ### VSCode Extentions that rock!
 - Auto Rename tag
 - Better Comments
 - ES7 + react/redux/react-native snippets
+- ESLint
+- Live Server
 - MDX
 - PostCSS Language Support
+- Prettier
+- Python
+- Remote-SSH
+- Remote Explorer
+- Terraform
