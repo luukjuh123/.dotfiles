@@ -14,3 +14,15 @@ Docker
 Kubernetes
 brew
 Azure CLI
+
+
+### VSCode Settings:
+- JetBrains Mono
+
+
+### VSCode Extentions that rock!
+- Auto Rename tag
+- Better Comments
+- ES7 + react/redux/react-native snippets
+- MDX
+- PostCSS Language Support
