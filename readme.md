@@ -8,6 +8,15 @@ sh ~/.dotfiles/unix/install.sh ; sh ~/.dotfiles/unix/create-terminal-setup.sh
 source ~/.zshrc
 ```
 
+### My Cli Tools
+  - zsh
+  - autojump
+  - TLDR
+  - jq
+  - pbcopy
+  - ngrok
+  - !! (bang bang)
+
 
 ### To install:
 Docker
