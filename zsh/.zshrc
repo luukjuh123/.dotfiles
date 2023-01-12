@@ -63,14 +63,14 @@ alias m8='microk8s'
 alias tf='terraform'
 
 # work directories
-alias cxdir='~/al/cxf/'
-alias mskdir='~/al/maskphotos/'
-alias bsdir='~/al/backstage/'
+alias cxdir='cd ~/al/cxf/'
+alias mskdir='cd ~/al/maskphotos/'
+alias bsdir='cd ~/al/backstage/'
 
 # home directories
-alias rdir='~/Documents/Programming/rust'
-alias pydir='~/Documents/Programming/python'
-alias njdir='~/Documents/Programming/nextjs'
-alias nodedir='~/Documents/Programming/nodejs'
+alias rdir='cd ~/Documents/Programming/rust'
+alias pydir='cd ~/Documents/Programming/python'
+alias njdir='cd ~/Documents/Programming/nextjs'
+alias nodedir='cd ~/Documents/Programming/nodejs'
 
 
