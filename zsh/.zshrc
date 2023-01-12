@@ -61,3 +61,16 @@ alias m8='microk8s'
 
 # terraform
 alias tf='terraform'
+
+# work directories
+alias cxdir='~/al/cxf/'
+alias mskdir='~/al/maskphotos/'
+alias bsdir='~/al/backstage/'
+
+# home directories
+alias rdir='~/Documents/Programming/rust'
+alias pydir='~/Documents/Programming/python'
+alias njdir='~/Documents/Programming/nextjs'
+alias nodedir='~/Documents/Programming/nodejs'
+
+
