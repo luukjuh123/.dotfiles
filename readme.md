@@ -10,18 +10,15 @@ source ~/.zshrc
 
 ### My Cli Tools
   - zsh
-  - autojump
+  - p10k
   - TLDR
   - jq
   - pbcopy
   - ngrok
-  - !! (bang bang)
-
 
 ### To install:
 Docker
 Kubernetes
-brew
 Azure CLI
 
 
