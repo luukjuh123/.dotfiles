@@ -34,7 +34,7 @@
         "jupyter-notebook": "left"
     },
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dark+ (contrast)",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
