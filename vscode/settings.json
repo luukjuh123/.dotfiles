@@ -46,6 +46,7 @@
     "notebook.output.textLineLimit": 500,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
+    "editor.inlineSuggest.enabled": true,
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
