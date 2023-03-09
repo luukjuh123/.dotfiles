@@ -60,3 +60,6 @@ code --install-extension panicbit.cargo
 
 # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
 code --install-extension rust-lang.rust-analyzer
+
+# https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+code --install-extension rangav.vscode-thunder-client
