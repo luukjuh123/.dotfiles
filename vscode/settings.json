@@ -34,7 +34,7 @@
         "jupyter-notebook": "left"
     },
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dark+ (contrast)",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -46,6 +46,7 @@
     "notebook.output.textLineLimit": 500,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
+    "editor.inlineSuggest.enabled": true,
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,

@@ -62,6 +62,14 @@ alias m8='microk8s'
 # terraform
 alias tf='terraform'
 
+# argo
+alias ag='argo'
+alias ags='argo submit'
+alias agl='argo list'
+alias agg='argo get'
+alias agd='argo delete'    
+
+
 # work directories
 alias cxdir='cd ~/al/cxf/'
 alias mskdir='cd ~/al/maskphotos/'
