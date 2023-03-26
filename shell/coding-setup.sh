@@ -78,5 +78,7 @@ sudo ln -s /usr/local/kubectx/kubectx /usr/local/bin/kubectx
 sudo ln -s /usr/local/kubectx/kubens /usr/local/bin/kubens
 
 # install ripgrep
-$ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
-$ sudo dpkg -i ripgrep_13.0.0_amd64.deb
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
+
+fi
