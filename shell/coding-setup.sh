@@ -1,6 +1,6 @@
 sudo apt -y install neovim
 sudo apt -y install jq
-sudo apt -y install ngrok
+# sudo apt -y install ngrok
 sudo apt -y install unzip
 
 # install fonts

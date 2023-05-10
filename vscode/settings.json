@@ -1,4 +1,3 @@
-
 {
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django"
@@ -17,6 +16,10 @@
     },
     "[terraform]": {
         "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "pipeline.yaml": "azure-pipelines",
+        "yaml/pipelinevariables.yml": "azure-pipelines",
     },
     "[azure-pipelines]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -46,12 +49,13 @@
     "notebook.output.textLineLimit": 500,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
-    "gitlens.currentLine.enabled": false,
+    "gitlens.currentLine.enabled": false,// in modern version
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
     "rust-analyzer.inlayHints.enable": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-
     "terminal.integrated.profiles.linux": {
         "zsh": {
             "path": "/bin/zsh",
@@ -59,7 +63,7 @@
         }
     },
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 12,
     "explorer.sortOrder": "type",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "mssql.connections": []
 }
