@@ -37,7 +37,7 @@
         "jupyter-notebook": "left"
     },
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Dark+ (contrast)",
+    "workbench.colorTheme": "Default Dark+",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -49,12 +49,9 @@
     "notebook.output.textLineLimit": 500,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
-<<<<<<< HEAD
     "gitlens.currentLine.enabled": false,// in modern version
-=======
     "editor.inlineSuggest.enabled": true,
     "gitlens.currentLine.enabled": false,
->>>>>>> ae51c883912fea40221f645806f58a2557ec56c1
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "editor.formatOnSave": true,
