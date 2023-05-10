@@ -9,3 +9,4 @@ whoami
 chown -R sammy:sammy ~/.ssh
 
 sudo -T ssh git@github.com
+fi
