@@ -83,3 +83,11 @@ alias pydir='cd ~/code/python'
 alias njdir='cd ~/code/nextjs'
 alias nodedir='cd ~/code/nodejs'
 alias tutdir='cd ~/code/tutorials'
+
+# Commitizen
+alias cza='cz add .&&cz commit -m'
+alias czc='cz commit'
+alias czv='cz version -p'
+
+
+
