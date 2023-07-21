@@ -88,6 +88,6 @@ alias tutdir='cd ~/code/tutorials'
 alias cza='cz add .&&cz commit -m'
 alias czc='cz commit'
 alias czv='cz version -p'
-
+alias czb='cz bump --changelog'
 
 
