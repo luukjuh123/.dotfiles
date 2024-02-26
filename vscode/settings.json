@@ -1,10 +1,11 @@
-
 {
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django"
     ],
     "[python]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "[javascript]": {
         "editor.tabSize": 2
@@ -17,6 +18,10 @@
     },
     "[terraform]": {
         "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "pipeline.yaml": "azure-pipelines",
+        "yaml/pipelinevariables.yml": "azure-pipelines",
     },
     "[azure-pipelines]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -34,7 +39,7 @@
         "jupyter-notebook": "left"
     },
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Dark+ (contrast)",
+    "workbench.colorTheme": "Default Dark+",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -50,9 +55,10 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
     "rust-analyzer.inlayHints.enable": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-
     "terminal.integrated.profiles.linux": {
         "zsh": {
             "path": "/bin/zsh",
@@ -60,7 +66,7 @@
         }
     },
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 12,
     "explorer.sortOrder": "type",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "mssql.connections": []
 }

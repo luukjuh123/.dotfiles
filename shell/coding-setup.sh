@@ -1,6 +1,6 @@
 sudo apt -y install neovim
 sudo apt -y install jq
-sudo apt -y install ngrok
+# sudo apt -y install ngrok
 sudo apt -y install unzip
 
 # install fonts
@@ -16,6 +16,8 @@ source $HOME/.cargo/env
 # install python
 
 sudo apt -y install python3
+
+curl -sSL https://install.python-poetry.org | python3 -
 
 # install terraform
 

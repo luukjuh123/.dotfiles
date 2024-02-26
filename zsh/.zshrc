@@ -10,6 +10,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export PATH="$HOME/.local/bin:$PATH"
+
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -67,7 +69,7 @@ alias ag='argo'
 alias ags='argo submit'
 alias agl='argo list'
 alias agg='argo get'
-alias agd='argo delete'    
+alias agd='argo delete'
 
 
 # work directories
@@ -75,10 +77,19 @@ alias cxdir='cd ~/al/cxf/'
 alias mskdir='cd ~/al/maskphotos/'
 alias bsdir='cd ~/al/backstage/'
 
-# home directories
-alias rdir='cd ~/Documents/Programming/rust'
-alias pydir='cd ~/Documents/Programming/python'
-alias njdir='cd ~/Documents/Programming/nextjs'
-alias nodedir='cd ~/Documents/Programming/nodejs'
+# Home directories
+alias rdir='cd ~/code/rust'
+alias pydir='cd ~/code/python'
+alias njdir='cd ~/code/nextjs'
+alias nodedir='cd ~/code/nodejs'
+alias tutdir='cd ~/code/tutorials'
 
+# Commitizen
+alias cza='cz add .&&cz commit -m'
+alias czc='cz commit'
+alias czv='cz version -p'
+alias czb='cz bump --changelog'
 
+# Docker
+alias dcu='docker-compose up'
+alias dcub='docker-compose up --build'
