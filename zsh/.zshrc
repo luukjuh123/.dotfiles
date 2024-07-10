@@ -91,5 +91,6 @@ alias czv='cz version -p'
 alias czb='cz bump --changelog'
 
 # Docker
-alias dcu='docker-compose up'
-alias dcub='docker-compose up --build'
+alias dcu='docker compose up'
+alias dcub='docker compose up --build'
+alias dcd='docker compose down'
