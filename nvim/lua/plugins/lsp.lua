@@ -1,3 +1,5 @@
+-- ~/.config/nvim/lua/plugins/lsp.lua
+
 return {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
@@ -21,7 +23,8 @@ return {
     },
     config = function()
         local lsp = require('lsp-zero')
-        local mason = require("mason").setup()
+
+        lsp.preset('recommended')
 
         local cmp = require('cmp')
         local cmp_select = { behavior = cmp.SelectBehavior.Select }
@@ -37,15 +40,15 @@ return {
         })
 
         lsp.on_attach(function(client, bufnr)
-            lsp_zero.default_keymaps({buffer = bufnr})
+            lsp.default_keymaps({ buffer = bufnr })
 
+            local opts = { buffer = bufnr }
             vim.keymap.set("n", "<leader>vd", function() vim.diagnostic.open_float() end, opts)
             vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
             vim.keymap.set("n", "<leader>gd", function() vim.lsp.buf.definition() end, opts)
-
         end)
 
-        lsp.setup_servers({'tsserver', 'rust_analyzer', 'pyright'})
+        lsp.setup_servers({ 'tsserver', 'rust_analyzer', 'pyright' })
 
         lsp.setup()
     end
