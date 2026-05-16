@@ -1,16 +1,27 @@
-sudo apt update
-sudo apt upgrade
+#!/usr/bin/env bash
+# Top-level entry point.
+#
+#   bash ~/.dotfiles/setup.sh           # core install
+#   bash ~/.dotfiles/setup.sh k8s       # core + kubernetes
+#   bash ~/.dotfiles/setup.sh all       # core + kubernetes
+#
+# All sub-scripts are idempotent — safe to re-run after pulling repo updates.
 
-# sh ~/.dotfiles/shell/coding-setup.sh
-sh ~/.dotfiles/shell/terminal-setup.sh
-sh ~/.dotfiles/shell/coding-setup.sh
-sh ~/.dotfiles/shell/terminal-setup.sh
-sh ~/.dotfiles/shell/software-setup.sh
-sh ~/.dotfiles/shell/shell-apps.sh
-sh ~/.dotfiles/shell/create-dirs.sh
-# check if running in ssh -> if not then install software programs
-if [ ! "$(ps h -o comm -p "$PPID")" != "sshd" ] ; then
-    # sh ~/.dotfiles/shell/software-setup.sh
-    sh ~/.dotfiles/shell/extension-setup.sh
-    exit 1
-fi
+set -euo pipefail
+
+DOTFILES="$(cd "$(dirname "$0")" && pwd)"
+
+bash "$DOTFILES/shell/install.sh"
+
+case "${1:-core}" in
+  core)
+    ;;
+  k8s|kubernetes|all)
+    bash "$DOTFILES/shell/k8s-setup.sh"
+    ;;
+  *)
+    echo "Unknown target: $1" >&2
+    echo "Usage: $0 [core|k8s|all]" >&2
+    exit 2
+    ;;
+esac
