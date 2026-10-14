@@ -1,9 +1,11 @@
-.PHONY: help install k8s all link clean
+.PHONY: help install k8s node all link clean
 
 help:
 	@echo 'Dotfiles install targets:'
 	@echo '  make install   - core: zsh, p10k, symlinks, fonts, apt deps'
-	@echo '  make k8s       - kubernetes toolchain (kubectl, helm, kubectx, k9s, krew)'
+	@echo '  make k8s       - kubernetes client toolchain (kubectl, helm, kubectx, k9s, krew)'
+	@echo '  make node      - tailscale + join this VM to a k3s cluster as an agent'
+	@echo '                   (needs TS_AUTHKEY, K3S_URL, K3S_TOKEN env vars — see readme.md)'
 	@echo '  make all       - install + k8s'
 	@echo '  make link      - only refresh dotfile symlinks (no apt)'
 
@@ -12,6 +14,10 @@ install:
 
 k8s:
 	bash ./shell/k8s-setup.sh
+
+node:
+	bash ./shell/tailscale-setup.sh
+	bash ./shell/k3s-agent-setup.sh
 
 all: install k8s
 
